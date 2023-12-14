@@ -52,7 +52,7 @@ public class Main {
 
         }while (opcion2 ==1);
         nomina.imprimirNomina();
-
+        entrada.close();
     }
 }
 

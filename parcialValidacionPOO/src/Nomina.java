@@ -9,7 +9,7 @@ public class Nomina {
     }
     public void imprimirNomina(){
         for (Empleado e: empleados) {
-            System.out.println(e.getNombre() + " " + e.getApellido()+ " " + e.calcularSalario() + " " + e.getClass().getName());
+            System.out.println("Nombre:" + e.getNombre() + " \tApellido:" + e.getApellido()+ " \tSalario: " + e.calcularSalario() + " \ttipo de trabajador:" + e.getClass().getName());
         }
     }
 }
